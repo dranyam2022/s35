@@ -1,0 +1,54 @@
+{
+	"info": {
+		"_postman_id": "921103d8-177c-45ec-b899-5072a7682230",
+		"name": "S35-Activity",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "23632523"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "username",
+							"value": "dranyam123",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "mypass123",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8080/signup?username=dranyam123&password=secretpassword123",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"signup"
+					],
+					"query": [
+						{
+							"key": "username",
+							"value": "dranyam123"
+						},
+						{
+							"key": "password",
+							"value": "secretpassword123"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
